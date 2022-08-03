@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Lato", sans-serif;
+}
+
+.clock {
+	height: 100vh;
+	width: 100%;
+	background-color: #000;
+	color: cyan;
+	display: grid;
+	place-items: center;
+	font-size: 50px;
+}
