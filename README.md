@@ -4,7 +4,7 @@ This are the list of projects that we are building in our Javascript series on I
 
 ## How to make?
 
-Go to my Instagram page [@coding_dev_](https://github.com/tilakjain123) to learn making of this JavaScript Projects.
+Go to my Instagram page [@coding_dev_](https://www.instagram.com/coding_dev_/) to learn making of this JavaScript Projects.
 
 
 ## List of Projects covered:
