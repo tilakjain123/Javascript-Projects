@@ -27,10 +27,6 @@ body{
 	font-weight: bold;
 	font-style: italic;
 }
-/*quote*/
-/*.show{
-    translate: -15rem 0 !important;
-}*/
 /*new quote button*/
 #generate{
     padding: 5px 10px;
