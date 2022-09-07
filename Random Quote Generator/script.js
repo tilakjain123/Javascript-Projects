@@ -39,7 +39,7 @@ generate = () => {
     "- Booker T. Washington": 'Few things can help an individual more than to place responsibility on him, and to let him know that you trust him.'
   };
 
-  // grab all the keys in the dictionary (authors) and store in an array
+  // grab all the keys in the (authors) and store in an array
   let authors = Object.keys(quotes);
   // grab a random key (author) and store it in author
   let author = authors[Math.floor(Math.random() * authors.length)];
