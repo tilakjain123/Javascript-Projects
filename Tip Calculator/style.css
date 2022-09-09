@@ -1,0 +1,105 @@
+body {
+  font-family: sans-serif;
+  background: #645CAA;
+  display: grid;
+  place-items: center;
+}
+#container {
+  width: 360px;
+  background: #BFACE0;
+  border-radius: 10px;
+  height: fit-content;
+  padding-bottom: 10px;
+}
+
+h1 {
+  background: #A084CA;
+  color: #16213E;
+  margin: 0;
+  padding: 10px 100px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+p {
+  padding-left: 20px;
+}
+form{
+    padding: 10px;
+}
+
+input {
+  padding: 8px 10px;
+  width: 200px;
+  outline:none;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  margin-left: 20px;
+  font-size: 14px;
+  transition: .1s;
+}
+input:focus{
+  border: 2px solid #645CAA;
+}
+
+#service {
+  padding: 4px 4px;
+  width: 200px;
+  margin-left: 20px;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  cursor: pointer;
+  background: #645CAA;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  border: 1px solid transparent;
+  color: white;
+  transition: .2s;
+}
+
+button:hover {
+  background: #A084CA;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#totalTip {
+  font-size: 30px;
+  margin-top: 5px;
+  text-align: center;
+  color: #16213E;
+}
+
+#totalTip:before {
+  content: "Tip amount";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#totalTip sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#totalTip small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
