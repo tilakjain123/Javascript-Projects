@@ -12,6 +12,8 @@ Go to my Instagram page [@coding_dev_](https://www.instagram.com/coding_dev_/) t
 2. Digital Clock
 3. Notes App
 4. Slideshow 
-5. More coming soon!
+5. Random Quote Generator
+6. Tip Calculator
+7. More coming soon!
 ---
 If you like this series and find it helpful then don't forget to give it a Star ✨
