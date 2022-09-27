@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  background: #a0eeff;
+}
+.container {
+  width: 20rem;
+  margin: auto;
+  text-align: center;
+  box-shadow: 20px 20px 60px #88cad9, -20px -20px 60px #b8ffff;
+  border-radius: 10px;
+  position: relative;
+}
+textarea {
+  width: 90%;
+  resize: none;
+  height: 10rem;
+  background: #a0eeff;
+  outline: none;
+  padding: 1rem 0.6rem;
+  margin-bottom: 2rem;
+  color: #5c4045;
+  font-family: sans-serif;
+  font-size: 1rem;
+  border: transparent;
+}
+.title {
+  text-align: center;
+  font-size: 1.2rem;
+  background: #45ddff;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+.status {
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #4c4c4c;
+  display: none;
+  font-size: 0.8rem;
+  border-radius: 0 0 10px 10px;
+  /* opacity: 0;*/
+  background: #45ddff;
+  transition: 1s;
+}
+@media (max-width: 20rem) {
+  .container {
+    width: 100%;
+  }
+}
+
+/*some css features alternative to javascript we wrote*/
+
+/*show status bar when textarea gets focus*/
+/*textarea:focus + .status{
+			opacity: 1;
+			background: #45ddff;
+		}*/
+/*hide status bar when textarea value is 0*/
+/*textarea:placeholder-shown + .status{
+			opacity: 0;
+		}*/
