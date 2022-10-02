@@ -14,6 +14,6 @@ conhahsole.log(days + "d "
 // check the time if its expired
     if (time < 0) { 
         clearInterval(x); 
-        demo.innerHTML = "EXPIRED"; 
+        demo.innerHTML = "Time is Up!"; 
     } 
 }, 1000); 
