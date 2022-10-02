@@ -1,0 +1,46 @@
+body {
+animation: changeBg 5s infinite alternate linear;
+display: grid;
+height: 100vh;
+font-family: sans-serif;
+place-items: center;
+}
+
+@keyframes changeBg{
+
+	0% {
+
+		background: #ee6055;
+
+	}
+
+	25% {
+
+		background: #60d394;
+
+	}
+
+	50% {
+
+		background: #aaf683;
+
+	}
+
+	75% {
+
+		background: #ffd97d;
+
+	}
+
+	100% {
+
+		background: #ff9b85;
+
+	}
+
+}
+
+h2 { 
+  text-align: center; 
+  font-size: 2rem; 
+} 
