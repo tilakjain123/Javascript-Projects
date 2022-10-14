@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --theme-color: #5074f3;
+}
+body {
+  background-color: var(--theme-color);
+display: grid;
+place-items: center;
+height: 100vh;
+}
+.container {
+  width: 90%;
+  max-width: 25em;
+}
+.card {
+  width: 100%;
+  padding: 4em 0;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 0.5em;
+}
+.card .img-container {
+  height: 11.25em;
+  width: 11.25em;
+  display: block;
+  margin: -8.75em auto 0 auto;
+  background-color: var(--theme-color);
+  box-shadow: 0 0 0 0.3em #ffffff, 0 0 0 0.5em white;
+  border-radius: 50%;
+}
+.img-container img {
+  width: 100%;
+  border-radius: 50%;
+}
+.container button {
+  display: block;
+  font-size: 1.2em;
+  width: 90%;
+  margin: 2em auto 0 auto;
+  padding: 1.1em 0;
+  border-radius: 0.3em;
+  border: none;
+  outline: mome;
+  font-weight: 600;
+  color: #000341;
+  cursor: pointer;
+}
+.card h2 {
+  margin-top: 1.8em;
+  font-weight: 600;
+  color: #000341;
+}
+.card h3,
+.card h4 {
+  font-size: 1em;
+  letter-spacing: 0.02em;
+  margin-top: 0.5em;
+  font-weight: 300;
+  color: #90919e;
+}
+.card i {
+  color: var(--theme-color);
+  margin-right: 0.3em;
+}
+.card h4 {
+  margin-top: 0.4em;
+}
