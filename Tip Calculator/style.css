@@ -4,6 +4,7 @@ body {
   display: grid;
   place-items: center;
 }
+
 #container {
   width: 360px;
   background: #BFACE0;
@@ -27,21 +28,23 @@ h1 {
 p {
   padding-left: 20px;
 }
-form{
-    padding: 10px;
+
+form {
+  padding: 10px;
 }
 
 input {
   padding: 8px 10px;
   width: 200px;
-  outline:none;
+  outline: none;
   border: 2px solid #fff;
   border-radius: 4px;
   margin-left: 20px;
   font-size: 14px;
   transition: .1s;
 }
-input:focus{
+
+input:focus {
   border: 2px solid #645CAA;
 }
 

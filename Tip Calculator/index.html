@@ -1,34 +1,45 @@
+<!DOCTYPE html>
 <html>
-<body>
-	<div id="container">
-  <h1>Tip Calculator</h1>
-  <div id="calculator">
-    <form>
-      <p>Bill Amount ₹
-        </p>
-           <input id="amount" type="text" placeholder="Bill Amount">
 
-          <p>Rate our service</p>
-              <select id="service">
-            <option disabled selected value="0"> Rating </option>
-            <option value="0.25">25&#37; &#45; Top Notch</option>
-            <option value="0.20">20&#37; &#45; Excellent</option>
-            <option value="0.15">15&#37; &#45; Okay</option>
-            <option value="0.10">10&#37; &#45; Bad</option>
-            <option value="0.05">5&#37; &#45; Terrible</option>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css">
+  <title>Tip Calculator</title>
+</head>
+
+<body>
+  <div id="container">
+    <h1>Tip Calculator</h1>
+    <div id="calculator">
+      <form>
+        <p>Bill Amount ₹
+        </p>
+        <input id="amount" type="text" placeholder="Bill Amount">
+
+        <p>Rate our service</p>
+        <select id="service">
+          <option disabled selected value="0"> Rating </option>
+          <option value="0.25">25&#37; &#45; Top Notch</option>
+          <option value="0.20">20&#37; &#45; Excellent</option>
+          <option value="0.15">15&#37; &#45; Okay</option>
+          <option value="0.10">10&#37; &#45; Bad</option>
+          <option value="0.05">5&#37; &#45; Terrible</option>
         </select>
 
-    </form>
-    <p>Number of people sharing the bill</p>
-    <input id="persons" type="text" placeholder="Number of People" /> 
-    <button type="button" id="calculate">Calculate TIP!</button>
+      </form>
+      <p>Number of people sharing the bill</p>
+      <input id="persons" type="text" placeholder="Number of People" />
+      <button type="button" id="calculate">Calculate TIP!</button>
 
+    </div>
+    <div id="totalTip">
+      <sup>₹</sup><span id="tip">0.00</span>
+      <small id="each">each</small>
+    </div>
   </div>
-  <div id="totalTip">
-    <sup>₹</sup><span id="tip">0.00</span>
-    <small id="each">each</small>
-  </div>
-</div>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
