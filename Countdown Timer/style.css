@@ -1,12 +1,12 @@
 body {
-animation: changeBg 5s infinite alternate linear;
-display: grid;
-height: 100vh;
-font-family: sans-serif;
-place-items: center;
+	animation: changeBg 5s infinite alternate linear;
+	display: grid;
+	height: 100vh;
+	font-family: sans-serif;
+	place-items: center;
 }
 
-@keyframes changeBg{
+@keyframes changeBg {
 
 	0% {
 
@@ -40,7 +40,7 @@ place-items: center;
 
 }
 
-h2 { 
-  text-align: center; 
-  font-size: 2rem; 
-} 
+h2 {
+	text-align: center;
+	font-size: 2rem;
+}
