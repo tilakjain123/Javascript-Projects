@@ -4,19 +4,23 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 :root {
   --theme-color: #5074f3;
 }
+
 body {
   background-color: var(--theme-color);
-display: grid;
-place-items: center;
-height: 100vh;
+  display: grid;
+  place-items: center;
+  height: 100vh;
 }
+
 .container {
   width: 90%;
   max-width: 25em;
 }
+
 .card {
   width: 100%;
   padding: 4em 0;
@@ -24,6 +28,7 @@ height: 100vh;
   text-align: center;
   border-radius: 0.5em;
 }
+
 .card .img-container {
   height: 11.25em;
   width: 11.25em;
@@ -33,10 +38,12 @@ height: 100vh;
   box-shadow: 0 0 0 0.3em #ffffff, 0 0 0 0.5em white;
   border-radius: 50%;
 }
+
 .img-container img {
   width: 100%;
   border-radius: 50%;
 }
+
 .container button {
   display: block;
   font-size: 1.2em;
@@ -50,11 +57,13 @@ height: 100vh;
   color: #000341;
   cursor: pointer;
 }
+
 .card h2 {
   margin-top: 1.8em;
   font-weight: 600;
   color: #000341;
 }
+
 .card h3,
 .card h4 {
   font-size: 1em;
@@ -63,10 +72,12 @@ height: 100vh;
   font-weight: 300;
   color: #90919e;
 }
+
 .card i {
   color: var(--theme-color);
   margin-right: 0.3em;
 }
+
 .card h4 {
   margin-top: 0.4em;
 }
