@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: sans-serif;
   display: grid;
@@ -9,6 +10,7 @@ body {
   place-items: center;
   background: #a0eeff;
 }
+
 .container {
   width: 20rem;
   margin: auto;
@@ -17,6 +19,7 @@ body {
   border-radius: 10px;
   position: relative;
 }
+
 textarea {
   width: 90%;
   resize: none;
@@ -30,6 +33,7 @@ textarea {
   font-size: 1rem;
   border: transparent;
 }
+
 .title {
   text-align: center;
   font-size: 1.2rem;
@@ -37,6 +41,7 @@ textarea {
   padding: 10px;
   border-radius: 10px 10px 0 0;
 }
+
 .status {
   text-align: center;
   padding: 10px 0;
@@ -51,6 +56,7 @@ textarea {
   background: #45ddff;
   transition: 1s;
 }
+
 @media (max-width: 20rem) {
   .container {
     width: 100%;
