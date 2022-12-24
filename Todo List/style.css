@@ -1,15 +1,17 @@
 *,
 *:before,
-*:after{
+*:after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     height: 100vh;
     background: #066acd;
 }
-.container{
+
+.container {
     width: 40%;
     top: 50%;
     left: 50%;
@@ -18,13 +20,15 @@ body{
     min-width: 300px;
     position: absolute;
     min-height: 100px;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-#newtask{
+
+#newtask {
     position: relative;
     padding: 30px 20px;
 }
-#newtask input{
+
+#newtask input {
     width: 75%;
     height: 45px;
     padding: 12px;
@@ -32,16 +36,17 @@ body{
     font-weight: 500;
     position: relative;
     border-radius: 5px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     border: 2px solid #d1d3d4;
 }
 
-#newtask input:focus{
+#newtask input:focus {
     outline: none;
     border-color: #0d75ec;
 }
-#newtask button{
+
+#newtask button {
     position: relative;
     float: right;
     font-weight: 500;
@@ -54,9 +59,10 @@ body{
     width: 20%;
     height: 45px;
     border-radius: 5px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-#tasks{
+
+#tasks {
     border-radius: 10px;
     width: 100%;
     position: relative;
@@ -64,7 +70,7 @@ body{
     padding: 5px 20px;
 }
 
-.task{
+.task {
     border-radius: 5px;
     align-items: center;
     justify-content: space-between;
@@ -76,12 +82,14 @@ body{
     padding: 5px 10px;
     display: flex;
 }
-.task span{
-    font-family: 'Poppins',sans-serif;
+
+.task span {
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: 400;
 }
-.task button{
+
+.task button {
     background-color: #0a2ea4;
     color: #ffffff;
     border: none;
