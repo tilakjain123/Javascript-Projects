@@ -70,18 +70,48 @@ body{
     justify-content: space-between;
     border: 1px solid #939697;
     cursor: pointer;
-    background-color: #c5e1e6;
+    background-color: #c5e1e0;
     height: 50px;
     margin-bottom: 8px;
     padding: 5px 10px;
     display: flex;
 }
+
 .task span{
     font-family: 'Poppins',sans-serif;
     font-size: 15px;
     font-weight: 400;
 }
 .task button{
+    background-color: #0a2ea4;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
+
+.task1{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: #eb9e55;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+
+.task1 span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task1 button{
     background-color: #0a2ea4;
     color: #ffffff;
     border: none;
