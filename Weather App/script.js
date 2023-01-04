@@ -1,9 +1,9 @@
- const apiKey = "d102ce6f8a7f8c61a416505fdeb98697";
+const apiKey = "d102ce6f8a7f8c61a416505fdeb98697";
 
-const main = document.getElementById('main');
+/*const main = document.getElementById('main');
 const form = document.getElementById('form');
-const search = document.getElementById('search');
-  
+const search = document.getElementById('search');*/
+
 const url = (city)=> `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=d102ce6f8a7f8c61a416505fdeb98697`; 
 
 
@@ -41,6 +41,11 @@ async function getWeatherByLocation(city){
      }
 
 
+window.onload = (event) => {
+
+const main = document.getElementById('main');
+const form = document.getElementById('form');
+const search = document.getElementById('search');
 
      form.addEventListener('submit',(e) =>{
         e.preventDefault();
@@ -52,3 +57,4 @@ async function getWeatherByLocation(city){
         }
 
      });
+}
