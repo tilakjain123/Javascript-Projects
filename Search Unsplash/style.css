@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Comfortaa', cursive;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+.fa-camera{
+  color: #5b8cf5;
+  margin: 0 10px;
+}
+.container{
+  width: 1280px;
+  margin: auto;
+}
+
+header{border-bottom: 5px solid #5b8cf5;}
+
+#header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 70px;
+  padding: 0 20px;
+}
+
+#header h2{font-size: 2rem;}
+
+#search_box{
+  position: relative;
+  width: 350px;
+}
+
+#search_box input{
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 1rem;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+   width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  transition: all 0.30s ease-in-out;
+  border: 1px solid #DDDDDD;
+}
+ input:focus{
+  box-shadow: 0 0 5px #5b8cf5;
+  border: 1px solid #5b8cf5;
+}
+
+#grid{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.img{
+  width: 380px;
+  height: 214px;
+  margin-top: 15px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+@media(max-width:1280px){
+ .container{width: 100%;}
+}
+
+@media(max-width:768px){
+  #main{width: 95%;}
+
+  .img{width: 100%;}
+
+  #header{
+    margin: 10px 0;
+    padding: 20px;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  #header h2{padding: 5px 0;}
+}
+
+@media(max-width:480px){
+  #header h2{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  #search_box{
+    width: 80%;
+    margin: auto;
+  }
